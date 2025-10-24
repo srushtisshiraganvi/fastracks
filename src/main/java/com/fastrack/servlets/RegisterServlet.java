@@ -14,7 +14,7 @@ public class RegisterServlet extends HttpServlet {
 
         String username = request.getParameter("username");
         String email = request.getParameter("email");
-        String password= request.getParameter("password");
+        String pwd= request.getParameter("password");
 
         // In a real app, save to DB (for now, just log it)
         System.out.println("New user registered: " + username + " | " + email);
